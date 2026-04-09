@@ -17,7 +17,7 @@ public class Conexao {
     private static final String user = "root";
     private static final String senha = "fabio";
 
-    public Connection Conectar() {
+    public static Connection conectar() {
         Connection conn = null;
         
         try{
